@@ -1,60 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Example</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Example">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <script>// Wait for the DOM to load
-        document.addEventListener("DOMContentLoaded", function () {
-        
-          // Specify the number of divs you want to create
-          var numDivs = 50;
-        
-          // Create the specified number of div elements
-          for (var i = 0; i < numDivs; i++) {
-            var div = document.createElement("div");
-            div.className = "frame-1";
-            var ellipse = document.createElement("div");
-            ellipse.className = "ellipse-1";
-            var blablabla = document.createElement("div");
-            blablabla.className = "blablablablabla";
-            blablabla.innerHTML = "Blablablablabla";
-            var testing = document.createElement("div");
-            testing.className = "testing";
-            testing.innerHTML = "-@testing";
-            div.appendChild(ellipse);
-            div.appendChild(blablabla);
-            div.appendChild(testing);
-        
-            // Set the class name and contents of the fourth div
-            if (i % 12 === 0) {
-                var div = document.createElement("div");
-                div.className = "frame-2";
-                var ellipse = document.createElement("div");
-                ellipse.className = "ellipse-1";
-                var blablabla = document.createElement("div");
-                blablabla.className = "blablablablabla";
-                blablabla.innerHTML = "Blablablablabla";
-                var testing = document.createElement("div");
-                testing.className = "testing";
-                testing.innerHTML = "-@company";
-                var promoted = document.createElement("div");
-                promoted.className = "company-promoted";
-                promoted.innerHTML = "promoted";
-                div.appendChild(ellipse);
-                div.appendChild(blablabla);
-                div.appendChild(testing);
-                div.appendChild(promoted);
-            }
-        
-            document.querySelector(".android-small-1").appendChild(div);
-          }
-        });
-    </script>
-    <div class="android-small-1"></div>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Twitter Clone</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+          <header>
+              <nav>
+                <a href="#">Home</a>
+                <a href="#">Tweets</a>
+                <a href="#">Discover</a>
+                <a href="#">Me</a>
+              </nav>
+          </header>
+          <main>
+                                                  <h1>Twitter Clone</h1>
+                                                      <p>This is a Twitter clone made with HTML, CSS, and JavaScript.</p>
+                                                          <div class="tweets">
+                                                                <div class="tweet">
+                                                                        <img src="https://avatars.githubusercontent.com/u/123456789?v=4" alt="Profile picture">
+                                                                                <p>This is a tweet.</p>
+                                                                                        <a href="#">Like</a>
+                                                                                                <a href="#">Reply</a>
+                                                                                                        <a href="#">Retweet</a>
+                                                                                                              </div>
+                                                                                                                    <div class="tweet">
+                                                                                                                            <img src="https://avatars.githubusercontent.com/u/987654321?v=4" alt="Profile picture">
+                                                                                                                                    <p>This is another tweet.</p>
+                                                                                                                                            <a href="#">Like</a>
+                                                                                                                                                    <a href="#">Reply</a>my
+                                                                                                                                                            <a href="#">Retweet</a>
+                                                                                                                                                                  </div>
+                                                                                                                                                                      </div>
+                                                                                                                                                                        </main>
+                                                                                                                                                                          <footer>
+                                                                                                                                                                              <p>Copyright &copy; 2023 Twitter Clone</p>
+                                                                                                                                                                                </footer>
+                                                                                                                                                                                </body>
+                                                                                                                                                                                </html>

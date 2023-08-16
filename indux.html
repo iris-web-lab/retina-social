@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Example">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script>// Wait for the DOM to load
+        document.addEventListener("DOMContentLoaded", function () {
+        
+          // Specify the number of divs you want to create
+          var numDivs = 50;
+        
+          // Create the specified number of div elements
+          for (var i = 0; i < numDivs; i++) {
+            var div = document.createElement("div");
+            div.className = "frame-1";
+            var ellipse = document.createElement("div");
+            ellipse.className = "ellipse-1";
+            var blablabla = document.createElement("div");
+            blablabla.className = "blablablablabla";
+            blablabla.innerHTML = "Blablablablabla";
+            var testing = document.createElement("div");
+            testing.className = "testing";
+            testing.innerHTML = "-@testing";
+            div.appendChild(ellipse);
+            div.appendChild(blablabla);
+            div.appendChild(testing);
+        
+            // Set the class name and contents of the fourth div
+            if (i % 12 === 0) {
+                var div = document.createElement("div");
+                div.className = "frame-2";
+                var ellipse = document.createElement("div");
+                ellipse.className = "ellipse-1";
+                var blablabla = document.createElement("div");
+                blablabla.className = "blablablablabla";
+                blablabla.innerHTML = "Blablablablabla";
+                var testing = document.createElement("div");
+                testing.className = "testing";
+                testing.innerHTML = "-@company";
+                var promoted = document.createElement("div");
+                promoted.className = "company-promoted";
+                promoted.innerHTML = "promoted";
+                div.appendChild(ellipse);
+                div.appendChild(blablabla);
+                div.appendChild(testing);
+                div.appendChild(promoted);
+            }
+        
+            document.querySelector(".android-small-1").appendChild(div);
+          }
+        });
+    </script>
+    <div class="android-small-1"></div>
+  </body>
+</html>
