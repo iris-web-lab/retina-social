@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Twitter Clone</title>
         <link rel="stylesheet" href="style1.css">
-        </head>
+        <script>
+          // This JavaScript code is used to make the Twitter clone responsive.
+
+          window.addEventListener("resize", function() {
+            var tweets = document.querySelectorAll(".tweets .tweet");
+              for (var i = 0; i < tweets.length; i++) {
+                  var tweet = tweets[i];
+                      if (window.innerWidth < 768) {
+                            tweet.style.width = "100%";
+                                } else {
+                                      tweet.style.width = "33%";
+                                          }
+                                            }
+                                            });
+                                            
+        </script>
+</head>
         <body>
           <header>
               <nav>
