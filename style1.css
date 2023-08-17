@@ -33,10 +33,13 @@ padding: 20px;
                                 display: flex;
                                   flex-wrap: wrap;
                                     justify-content: space-between;
+
                                     }
 
                                     .tweet {
                                       margin-bottom: 20px;
+                                      border: 1px;
+                                      border-radius: 15px;
                                       }
 
                                       .tweet img {
